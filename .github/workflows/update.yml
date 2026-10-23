@@ -1,7 +1,6 @@
 # The "Check for updates" workflow of the Pear docs' "Automate new releases", for the app's
-# repository on Flathub (flathub/dev.ciranda.Capy), after Keet's
-# (github.com/flathub/io.keet.Keet/blob/master/.github/workflows/update.yml): run it from the
-# Actions tab and the external data checker opens a PR for the newest capy-releases release.
+# repository on Flathub (flathub/dev.ciranda.Capy): run it from the Actions tab and the external
+# data checker opens a PR for the newest capy-releases release.
 # flathub.json opts out of the central checker, which runs every 4 hours
 name: Check for updates
 on:
